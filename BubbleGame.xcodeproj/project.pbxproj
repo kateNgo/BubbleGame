@@ -7,25 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		644C820F1EC931D00029FFBC /* ScoreBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 644C820E1EC931D00029FFBC /* ScoreBoardViewController.m */; };
+		644C82171EC94E130029FFBC /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 644C82161EC94E130029FFBC /* MyTableViewCell.m */; };
 		64B0B11E1EB6DC5C00F33198 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B0B11D1EB6DC5C00F33198 /* main.m */; };
 		64B0B1211EB6DC5C00F33198 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B0B1201EB6DC5C00F33198 /* AppDelegate.m */; };
-		64B0B1241EB6DC5C00F33198 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B0B1231EB6DC5C00F33198 /* ViewController.m */; };
+		64B0B1241EB6DC5C00F33198 /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B0B1231EB6DC5C00F33198 /* PlayViewController.m */; };
 		64B0B1271EB6DC5C00F33198 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64B0B1251EB6DC5C00F33198 /* Main.storyboard */; };
 		64B0B1291EB6DC5C00F33198 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64B0B1281EB6DC5C00F33198 /* Assets.xcassets */; };
 		64B0B12C1EB6DC5C00F33198 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64B0B12A1EB6DC5C00F33198 /* LaunchScreen.storyboard */; };
+		64B0B1381EB6E11300F33198 /* BubbleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B0B1371EB6E11300F33198 /* BubbleImage.m */; };
+		64B0B1421EB6E5A300F33198 /* blackBall.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B0B13D1EB6E5A300F33198 /* blackBall.png */; };
+		64B0B1431EB6E5A300F33198 /* blueBall.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B0B13E1EB6E5A300F33198 /* blueBall.png */; };
+		64B0B1441EB6E5A300F33198 /* greenBall.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B0B13F1EB6E5A300F33198 /* greenBall.png */; };
+		64B0B1451EB6E5A300F33198 /* pinkBall.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B0B1401EB6E5A300F33198 /* pinkBall.png */; };
+		64B0B1461EB6E5A300F33198 /* redBall.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B0B1411EB6E5A300F33198 /* redBall.png */; };
+		64B0B14A1EB956C600F33198 /* BubbleUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B0B1491EB956C600F33198 /* BubbleUser.m */; };
+		64FBA9081EBAC17E00FC8B16 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FBA9071EBAC17E00FC8B16 /* LoginViewController.m */; };
+		64FBA90B1EBAC19100FC8B16 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FBA90A1EBAC19100FC8B16 /* SettingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		64B0B1191EB6DC5C00F33198 /* MyGame2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyGame2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		644C820D1EC931D00029FFBC /* ScoreBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreBoardViewController.h; sourceTree = "<group>"; };
+		644C820E1EC931D00029FFBC /* ScoreBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreBoardViewController.m; sourceTree = "<group>"; };
+		644C82151EC94E130029FFBC /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		644C82161EC94E130029FFBC /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		64B0B1191EB6DC5C00F33198 /* BubbleGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubbleGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64B0B11D1EB6DC5C00F33198 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		64B0B11F1EB6DC5C00F33198 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		64B0B1201EB6DC5C00F33198 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		64B0B1221EB6DC5C00F33198 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		64B0B1231EB6DC5C00F33198 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		64B0B1221EB6DC5C00F33198 /* PlayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
+		64B0B1231EB6DC5C00F33198 /* PlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
 		64B0B1261EB6DC5C00F33198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		64B0B1281EB6DC5C00F33198 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64B0B12B1EB6DC5C00F33198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64B0B12D1EB6DC5C00F33198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64B0B1361EB6E11300F33198 /* BubbleImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubbleImage.h; sourceTree = "<group>"; };
+		64B0B1371EB6E11300F33198 /* BubbleImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubbleImage.m; sourceTree = "<group>"; };
+		64B0B13D1EB6E5A300F33198 /* blackBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blackBall.png; path = images/blackBall.png; sourceTree = "<group>"; };
+		64B0B13E1EB6E5A300F33198 /* blueBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blueBall.png; path = images/blueBall.png; sourceTree = "<group>"; };
+		64B0B13F1EB6E5A300F33198 /* greenBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = greenBall.png; path = images/greenBall.png; sourceTree = "<group>"; };
+		64B0B1401EB6E5A300F33198 /* pinkBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pinkBall.png; path = images/pinkBall.png; sourceTree = "<group>"; };
+		64B0B1411EB6E5A300F33198 /* redBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redBall.png; path = images/redBall.png; sourceTree = "<group>"; };
+		64B0B1481EB956C600F33198 /* BubbleUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubbleUser.h; sourceTree = "<group>"; };
+		64B0B1491EB956C600F33198 /* BubbleUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubbleUser.m; sourceTree = "<group>"; };
+		64FBA9061EBAC17E00FC8B16 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		64FBA9071EBAC17E00FC8B16 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		64FBA9091EBAC19100FC8B16 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		64FBA90A1EBAC19100FC8B16 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +70,7 @@
 		64B0B1101EB6DC5C00F33198 = {
 			isa = PBXGroup;
 			children = (
-				64B0B11B1EB6DC5C00F33198 /* MyGame2 */,
+				64B0B11B1EB6DC5C00F33198 /* BubbleGame */,
 				64B0B11A1EB6DC5C00F33198 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,41 +78,66 @@
 		64B0B11A1EB6DC5C00F33198 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				64B0B1191EB6DC5C00F33198 /* MyGame2.app */,
+				64B0B1191EB6DC5C00F33198 /* BubbleGame.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		64B0B11B1EB6DC5C00F33198 /* MyGame2 */ = {
+		64B0B11B1EB6DC5C00F33198 /* BubbleGame */ = {
 			isa = PBXGroup;
 			children = (
+				64B0B1361EB6E11300F33198 /* BubbleImage.h */,
+				64B0B1371EB6E11300F33198 /* BubbleImage.m */,
 				64B0B11F1EB6DC5C00F33198 /* AppDelegate.h */,
 				64B0B1201EB6DC5C00F33198 /* AppDelegate.m */,
-				64B0B1221EB6DC5C00F33198 /* ViewController.h */,
-				64B0B1231EB6DC5C00F33198 /* ViewController.m */,
+				64B0B1221EB6DC5C00F33198 /* PlayViewController.h */,
+				64B0B1231EB6DC5C00F33198 /* PlayViewController.m */,
 				64B0B1251EB6DC5C00F33198 /* Main.storyboard */,
 				64B0B1281EB6DC5C00F33198 /* Assets.xcassets */,
 				64B0B12A1EB6DC5C00F33198 /* LaunchScreen.storyboard */,
 				64B0B12D1EB6DC5C00F33198 /* Info.plist */,
 				64B0B11C1EB6DC5C00F33198 /* Supporting Files */,
+				64B0B1481EB956C600F33198 /* BubbleUser.h */,
+				64B0B1491EB956C600F33198 /* BubbleUser.m */,
+				64FBA9061EBAC17E00FC8B16 /* LoginViewController.h */,
+				64FBA9071EBAC17E00FC8B16 /* LoginViewController.m */,
+				64FBA9091EBAC19100FC8B16 /* SettingViewController.h */,
+				64FBA90A1EBAC19100FC8B16 /* SettingViewController.m */,
+				644C820D1EC931D00029FFBC /* ScoreBoardViewController.h */,
+				644C820E1EC931D00029FFBC /* ScoreBoardViewController.m */,
+				644C82151EC94E130029FFBC /* MyTableViewCell.h */,
+				644C82161EC94E130029FFBC /* MyTableViewCell.m */,
 			);
-			path = MyGame2;
+			path = BubbleGame;
 			sourceTree = "<group>";
 		};
 		64B0B11C1EB6DC5C00F33198 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				64B0B1471EB6E5D400F33198 /* images */,
 				64B0B11D1EB6DC5C00F33198 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		64B0B1471EB6E5D400F33198 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				64B0B13D1EB6E5A300F33198 /* blackBall.png */,
+				64B0B13E1EB6E5A300F33198 /* blueBall.png */,
+				64B0B13F1EB6E5A300F33198 /* greenBall.png */,
+				64B0B1401EB6E5A300F33198 /* pinkBall.png */,
+				64B0B1411EB6E5A300F33198 /* redBall.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		64B0B1181EB6DC5C00F33198 /* MyGame2 */ = {
+		64B0B1181EB6DC5C00F33198 /* BubbleGame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 64B0B1301EB6DC5C00F33198 /* Build configuration list for PBXNativeTarget "MyGame2" */;
+			buildConfigurationList = 64B0B1301EB6DC5C00F33198 /* Build configuration list for PBXNativeTarget "BubbleGame" */;
 			buildPhases = (
 				64B0B1151EB6DC5C00F33198 /* Sources */,
 				64B0B1161EB6DC5C00F33198 /* Frameworks */,
@@ -94,9 +147,9 @@
 			);
 			dependencies = (
 			);
-			name = MyGame2;
-			productName = MyGame2;
-			productReference = 64B0B1191EB6DC5C00F33198 /* MyGame2.app */;
+			name = BubbleGame;
+			productName = BubbleGame;
+			productReference = 64B0B1191EB6DC5C00F33198 /* BubbleGame.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -114,7 +167,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 64B0B1141EB6DC5C00F33198 /* Build configuration list for PBXProject "MyGame2" */;
+			buildConfigurationList = 64B0B1141EB6DC5C00F33198 /* Build configuration list for PBXProject "BubbleGame" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -127,7 +180,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				64B0B1181EB6DC5C00F33198 /* MyGame2 */,
+				64B0B1181EB6DC5C00F33198 /* BubbleGame */,
 			);
 		};
 /* End PBXProject section */
@@ -137,9 +190,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64B0B1421EB6E5A300F33198 /* blackBall.png in Resources */,
 				64B0B12C1EB6DC5C00F33198 /* LaunchScreen.storyboard in Resources */,
+				64B0B1441EB6E5A300F33198 /* greenBall.png in Resources */,
+				64B0B1451EB6E5A300F33198 /* pinkBall.png in Resources */,
+				64B0B1461EB6E5A300F33198 /* redBall.png in Resources */,
 				64B0B1291EB6DC5C00F33198 /* Assets.xcassets in Resources */,
 				64B0B1271EB6DC5C00F33198 /* Main.storyboard in Resources */,
+				64B0B1431EB6E5A300F33198 /* blueBall.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,9 +208,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64B0B1241EB6DC5C00F33198 /* ViewController.m in Sources */,
+				64B0B1241EB6DC5C00F33198 /* PlayViewController.m in Sources */,
 				64B0B1211EB6DC5C00F33198 /* AppDelegate.m in Sources */,
+				64B0B14A1EB956C600F33198 /* BubbleUser.m in Sources */,
+				644C82171EC94E130029FFBC /* MyTableViewCell.m in Sources */,
+				64FBA9081EBAC17E00FC8B16 /* LoginViewController.m in Sources */,
+				644C820F1EC931D00029FFBC /* ScoreBoardViewController.m in Sources */,
 				64B0B11E1EB6DC5C00F33198 /* main.m in Sources */,
+				64B0B1381EB6E11300F33198 /* BubbleImage.m in Sources */,
+				64FBA90B1EBAC19100FC8B16 /* SettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,10 +334,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = MyGame2/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BubbleGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ppben.MyGame2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ppben.BubbleGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -281,17 +347,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = MyGame2/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BubbleGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ppben.MyGame2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ppben.BubbleGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		64B0B1141EB6DC5C00F33198 /* Build configuration list for PBXProject "MyGame2" */ = {
+		64B0B1141EB6DC5C00F33198 /* Build configuration list for PBXProject "BubbleGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				64B0B12E1EB6DC5C00F33198 /* Debug */,
@@ -300,13 +368,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		64B0B1301EB6DC5C00F33198 /* Build configuration list for PBXNativeTarget "MyGame2" */ = {
+		64B0B1301EB6DC5C00F33198 /* Build configuration list for PBXNativeTarget "BubbleGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				64B0B1311EB6DC5C00F33198 /* Debug */,
 				64B0B1321EB6DC5C00F33198 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

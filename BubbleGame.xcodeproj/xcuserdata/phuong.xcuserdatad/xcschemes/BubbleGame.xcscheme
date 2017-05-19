@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "64B0B1181EB6DC5C00F33198"
-               BuildableName = "MyGame2.app"
-               BlueprintName = "MyGame2"
-               ReferencedContainer = "container:MyGame2.xcodeproj">
+               BuildableName = "BubbleGame.app"
+               BlueprintName = "BubbleGame"
+               ReferencedContainer = "container:BubbleGame.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "64B0B1181EB6DC5C00F33198"
-            BuildableName = "MyGame2.app"
-            BlueprintName = "MyGame2"
-            ReferencedContainer = "container:MyGame2.xcodeproj">
+            BuildableName = "BubbleGame.app"
+            BlueprintName = "BubbleGame"
+            ReferencedContainer = "container:BubbleGame.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,11 +56,18 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "64B0B1181EB6DC5C00F33198"
-            BuildableName = "MyGame2.app"
-            BlueprintName = "MyGame2"
-            ReferencedContainer = "container:MyGame2.xcodeproj">
+            BuildableName = "BubbleGame.app"
+            BlueprintName = "BubbleGame"
+            ReferencedContainer = "container:BubbleGame.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "OS_ACTIVITY_MODE"
+            value = "disable"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -75,9 +82,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "64B0B1181EB6DC5C00F33198"
-            BuildableName = "MyGame2.app"
-            BlueprintName = "MyGame2"
-            ReferencedContainer = "container:MyGame2.xcodeproj">
+            BuildableName = "BubbleGame.app"
+            BlueprintName = "BubbleGame"
+            ReferencedContainer = "container:BubbleGame.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
